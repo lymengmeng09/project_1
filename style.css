@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+   background: black;
+   width: 100%;
+   height: 70px;
+}
+nav,ul,li{
+    display: flex;
+    justify-content:flex-start;
+    padding: 5px;
+    list-style: none;
+    align-items: center;
+}
+nav,ul,li,a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+nav,ul,li,a:hover{
+    color: teal;
+    transform: scale(1.1);
+}
+header{
+    background-image: url(https://cms.accuweather.com/wp-content/uploads/2020/01/cropped-vincentiu-solomon-ln5drpv_ImI-unsplash-1-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    /* background: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color:bisque;
+}
+.m{
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.card1{
+    width: 30%;
+    height: 30vh;
+    background: thistle;
+    text-align: center;
+    font-family: sans-serif; 
+    border-radius: 10px;
+    margin: 5px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/57c891d41b631b297aa4aa10/1634324143608-9HCUM6OTEX1ZZSRD0AZZ/night-sky-stars.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card2{
+    width: 30%;
+    height: 30vh;
+    background: thistle;
+    text-align: center;
+    font-family: sans-serif; 
+    border-radius: 10px;
+    margin: 5px;
+    background-image: url(https://media.istockphoto.com/id/592031250/photo/milky-way-and-pink-light-at-mountains-night-colorful-landscape.jpg?s=612x612&w=0&k=20&c=MlBuwRU4M-eZda80ONcdV9NbwtyJQrvggug31A6vLJU=);
+    background-size: cover;
+    background-position: center;
+}
+.card3{
+    width: 30%;
+    height: 30vh;
+    text-align: center;
+    font-family: sans-serif; 
+    border-radius: 10px;
+    margin: 5px;
+    background-image: url(https://www.yorku.ca/yfile/wp-content/uploads/sites/889/2023/12/beautiful-sunset-stars-night-sky-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h4{
+    margin-top: 20px;
+    color: antiquewhite;
+}
+.body{
+    display: flex;
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+main{
+    width: 70%;
+    
+}
+main section .contain-box1{
+    width: 80%;
+    margin: auto;
+}
+main section .box-about{
+    margin-top: 70px;
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-sagittarius-constellation-background-starry-sky-background-picture-image_1145498.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 700px; 
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.box-about{
+    align-content: center;
+}
+ .contain-box-about{
+    gap: 100px;
+    margin-top: 80px;
+    margin-left: 30px;
+ }
+.box-1{
+    margin: 30px;
+    width: 200%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-12-constellation-sagittarius-beautiful-starry-sky-background-synthesis-image_219501.jpg);
+ }
+.box-2{
+    background-image: url(https://starregistration.net/media/wysiwyg/Constellations/Sagittarius.png);
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    width: 200%;
+    height: 30vh;
+    border-radius: 10px;
+    
+ }
+.box-3{
+    margin: 30px;
+    width: 200%;
+    height: 30vh;
+    background-image: url(https://media.istockphoto.com/id/858080490/photo/sagittarius-zodiac-sign-abstract-night-sky-background.jpg?s=612x612&w=0&k=20&c=b3E2GUago2-r5440gUWZFdSxTlnv7pg9qfZp0gA8YHg=);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ h2{
+    margin-top: 30px;
+ }
+ h3{
+    position: relative;
+    top: 9px;
+    margin-left: 5px;
+    color: antiquewhite;
+ }
+ .box-about,h3,p{
+    margin-top: 20px;
+ }
+ #h2{
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 2rem;
+ }
+ table{
+    margin-top: 20px;
+    margin-left: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+ }
+ th,td{
+    padding: 20px;
+ }
+th:nth-child(1) ,td:nth-child(1){
+    background:rgb(234, 143, 234);
+}
+th:nth-child(2) ,td:nth-child(2){
+    background:rgb(243, 124, 243);
+}
+th:nth-child(3) ,td:nth-child(3){
+    background:rgb(212, 85, 212);
+}
+th:nth-child(4) ,td:nth-child(4){
+    background: rgb(222, 60, 222);
+}
